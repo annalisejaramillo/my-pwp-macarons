@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div>
-			<h1>PWP Milestone 1 Documentation</h1>
+			<h1>PWP Milestone 1</h1>
 		</div>
 		<br>
 		<div>
@@ -87,7 +87,7 @@
 			<p>aestheticly pleasing and trendy and she&apos;s looking for that in business branding as well as product.</p>
 			<br>
 			<h4>User Story</h4>
-			<p>As a user I want to be able to decide quickly if this is the dessert im looking for for my party</p>
+			<p>As power user I want to be able to decide quickly if this is the dessert im looking for for my party</p>
 		</div>
 	</body>
 </html>
