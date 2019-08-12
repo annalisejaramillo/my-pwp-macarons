@@ -1,0 +1,26 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: repeating-linear-gradient(
+		to right,
+		rgb(230, 195, 193),
+		rgb(230, 195, 193) 100px,
+		rgb(248, 123, 123) 100px,
+		rgb(248, 123, 123) 200px,
+		rgb(243, 165, 162) 200px,
+		rgb(243, 165, 162) 300px,
+		rgb(175, 195, 220) 300px,
+		rgb(175, 195, 220) 400px
+	);
+}
+.container {
+	margin: 100px;
+	padding: 100px;
+}
+
+#header {
+	margin-top: 5%;
+	padding-top: 5%;
+	padding-bottom: 30%;
+	font-size: 250px;
+}
