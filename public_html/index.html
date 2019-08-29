@@ -5,6 +5,9 @@
 		<title>M is for Macaron</title>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
@@ -20,133 +23,191 @@
 			<div>
 				<h1 class="font-weight-bold text-monospace text-white" id="header">M is for <br> Macaron</h1>
 			</div>
-		<br>
-		<div >
-			<h2 class="text-monospace text-white">Pricing and Product</h2>
+
+		<div class="p-5">
+			<h2 class="font-weight-bold text-sans-serif text-white ">Pricing and Flavors</h2>
 			<div class="container">
-				<div class="row">
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
+				<ul class="Flavors">
+					<li class="list-group-item font-weight-bold">Price</li>
+					<li class="list-group-item">$19 a dozen</li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item font-weight-bold">Flavors</li>
+					<li class="list-group-item">Toasted Coconut</li>
+					<li class="list-group-item">Lemon Creme</li>
+					<li class="list-group-item">Salted Carmel Buttercream</li>
+					<li class="list-group-item">White Chocolate Matcha</li>
+					<li class="list-group-item">London Fog</li>
+					<li class="list-group-item">Rasberries & Cream</li>
+					<li class="list-group-item">Coco Mint Ganache</li>
+					<li class="list-group-item"><em>Dairy Free</em></li>
+					<li class="list-group-item">Vanilla Custard</li>
+					<li class="list-group-item">Lemon Zest</li>
+					<li class="list-group-item">Berry Compote</li>
+
+				</ul>
+			</div>
+
+		</div>
+		<br>
+		<div class="p-5">
+			<h2 class="font-weight-bold text-sans-serif text-white ">Featured Flavors</h2>
+			<div class="cards container">
+				<div class="row justify-content-center">
+					<div class="card col-lg-3 col-md-8 col-sm-12" style="width: 15rem;">
+						<img src="white.jpg" class="card-img-top pt-3" alt="...">
 						<div class="card-body">
-							<p class="card-text">$$$</p>
+							<p class="card-text text-monospace">Toasted Coconut</p>
 						</div>
 					</div>
-					<div class="card col-lg-3 col-md-6 col=sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
+					<div class="card col-lg-3 col-md-8 col-sm-12" style="width: 15rem;">
+						<img src="pink.jpg" class="card-img-top pt-3" alt="...">
 						<div class="card-body">
-							<p class="card-text">$$$</p>
+							<p class="card-text text-monospace">Raspberry and Cream</p>
 						</div>
 					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
+					<div class="card col-lg-3 col-md-8 col-sm-12" style="width: 15rem;">
+						<img src="blue.jpg" class="card-img-top pt-3" alt="...">
 						<div class="card-body">
-							<p class="card-text">$$$</p>
+							<p class="card-text text-monospace">London Fog</p>
 						</div>
 					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">$$$</p>
 						</div>
+					</div>
+		</div>
+		<br>
+		<div class="p-5">
+			<h2 class="font-weight-bold text-sans-serif text-white ">Gallery</h2>
+
+			<div class=" gallery container">
+				<div class="row content-justify-center">
+					<div class="col-md-12 mb-3">
+						<img src="bulk-pink(1).jpg" width="1120" height="auto" class="img-fluid z-depth-1" alt="Responsive image">
 					</div>
 				</div>
-			</div>
-		<br>
-			<h2 class="text-monospace text-white">Gallery</h2>
-			<div class="container">
 				<div class="row">
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" ; alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
+					<div class="col-md-6 mb-3">
+						<img src="25.jpg"  class="img-fluid z-depth-1"
+							  alt="Responsive image">
 					</div>
-					<div class="card col-lg-3 col-md-6 col=sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<br>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" ; alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<div class="card col-lg-3 col-md-6 col=sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
-					</div>
-					<div class="card col-lg-3 col-md-6 col-sm-12" style="width: 24rem;">
-						<img src="example.png" class="card-img-top" alt="...">
-						<div class="card-body">
-							<p class="card-text">about</p>
-						</div>
+					<div class="col-md-6 mb-3">
+						<img src="cactus-green.png"   class="img-fluid z-depth-1"
+							  alt="Responsive image">
 					</div>
 				</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-12 mb-3">
+					<img src="box-purple-blue.jpg" class="img-fluid z-depth-1"
+						  alt="Responsive image">
+				</div>
+				<div class="col-lg-4 col-md-6 mb-3">
+					<img src="mm-ears.jpg" class="img-fluid z-depth-1"
+						  alt="Responsive image">
+				</div>
+				<div class="col-lg-4 col-md-6 mb-3">
+					<img src="teir.jpg" class="img-fluid z-depth-1"
+						  alt="Responsive image">
+				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<img src="bulk.jpg" class="img-fluid z-depth-1"
+						  alt="Responsive image">
+				</div>
+				<div class="col-md-6 mb-3">
+					<img src="white.jpg" class="img-fluid z-depth-1"
+						  alt="Responsive image">
+				</div>
+			</div>
+		</div>
+		</div>
 		<br>
-			<h2 class="text-monospace text-white">Contact Us</h2>
+		<div class="p-5">
+			<h2 class=" font-weight-bold text-sans-serif text-white ">About Me</h2>
+			<div class="container p-2 bg-white">
+			<div class="row ">
+				<div class="col-lg-5 col-md-12 mb-3">
+					<img src="familyPicture.jpg" class="img-fluid  z-depth-1" alt="Me and my girls">
+				</div>
+				<div class ="col-lg-6 col-md-12" >
+					<p class="text-sans-serif">Hi, I'm Alexzandra. I'm a wife, mom to two little girls, baker, and craft
+						lover who has a lot of ideas and none of the time. When my 4-year-old was smaller she had a onesie that read "Messy hair,
+						don’t care”. She only wore it when her hair was brushed and up in those little piggy buns that only babies and models look
+						cute in.
+						<br>
+						<br>
+						Now before I go on, I want to be clear, motherhood is the absolute most beautiful thing I have ever done with my life.
+						I wouldn't trade it for anything in the world. It has however made two things unavoidably clear to me: 1. LIFE IS MESSY
+						and 2. As cute as that onesie was and as much as I try and convince myself otherwise, I DO CARE. ...and so, I bake.
+						<br>
+						<br>
+						The kitchen is one of the places where my need for perfection isn't a serious personality flaw. I've been baking for
+						as long as I can remember. In my early twenties I worked part time for a local cafe filling their pastry case with
+						cookies, brownies, cakes and sweet treats but it wasn't until afte r my second daughter was born that I tried my hand at
+						macarons. I'm not entirely sure if it’s because the attention to detail they require satisfies my type-a personality
+						or if it's because of how much joy they seem to bring people (both to look at and to eat). Either way I've been
+						completely obsessed ever since. I found myself compulsively feeling the need to share my love for these beautiful and delicate
+						cookies (read: "It's your birthday, I'll bring macarons!", "You're having a baby, I'll bring macarons!", "It's our
+						week to bring snack at Storytime, I'll bring macarons!). Turns out the love is pretty contagious.</p>
+				</div>
+			</div>
+
+			</div>
+		</div>
+		<br>
+		<div class=" p-5">
+			<h2 class="font-weight-bold text-sans-serif text-white ">Contact Us</h2>
 			<div class="container bg-white">
 				<div class="row">
 					<div class="col-lg-6 col-sm-12">
-						<form>
+						<form id="contact-form" action="../php/">
 							<div class="form-group">
-								<label for="ControlInput1">Name</label>
-								<input class="form-control" id="ControlInput1" placeholder="name">
+								<label for="name">Name</label>
+								<input class="form-control" id="name" name="name" placeholder="name">
 							</div>
 							<div class="form-group">
-								<label for="ControlInput2">Email address</label>
-								<input type="email" class="form-control" id="ControlInput2" placeholder="name@example.com">
+								<label for="email">Email address</label>
+								<input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
 							</div>
 							<div class="form-group">
-								<label for="ControlSelect1">Subject</label>
-								<select class="form-control" id="ControlSelect1">
-									<option>Inquire</option>
-									<option>Place Order</option>
-								</select>
+								<label for="subject">Subject</label>
+								<input class="form-control" id="subject" name="subject" placeholder="subject">
 							</div>
 							<div class="form-group">
-								<label for="exampleFormControlTextarea1">Questions or Order instructions</label>
-								<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+								<label for="message">Questions or Order instructions</label>
+								<textarea class="form-control" id="message" name="message" rows="3"></textarea>
 							</div>
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Ld1CrMUAAAAACLXtx07BrCIsEyPDHBbMtMZuGgv"></div>
+
+							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i>Send</button>
+							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i>Reset</button>
 						</form>
+						<!--empty area for form error/success output-->
+						<div class="row">
+							<div class="col-xs-12">
+								<div id="output-area"></div>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-6 col-sm-12">
-					<h4>Directions for ordering</h4>
-						<ul>
-							<li>Your Flavor</li>
-							<li>quantity</li>
-							<li>requested delivery date</li>
-						</ul>
-						<p>please note your order is confirmed via Email within 1-2 business days</p>
+					<div class="col-lg-4 p-1 col-sm-12 text-monospace container">
+					<h4>I would love to hear from you!</h4>
+						<br>
+						<h6>If your interested in ordering or your curios about other flavors and coloring, please contact me
+							and i'll see what
+						i can do for you.</h6>
+						<br>
+						<h6>If you would like to place an order. Please answer the question bellow</h6>
+						<ol>
+							<li>Pick your flavors! Remember that each flavor has to be in a quantity of a dozen.</li>
+							<li>How many Macarons can i make for you?</li>
+							<li>When would you like these?</li>
+						</ol>
+						<p>Thank you. I will confirm your order via Email ASAP!</p>
 					</div>
 				</div>
 			</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 	</body>
 </html>
