@@ -13,15 +13,32 @@ body {
 		rgb(175, 195, 220) 400px
 	);
 }
-.container {
-	margin-top: 100px;
-	padding: 100px;
+
+
+
+#contact-form {
+	padding:10px;
 }
+
+h2 {
+	margin: 30px;
+	padding: 30px;
+}
+
 
 #header {
 	margin-top: 5%;
 	margin-left: 10%;
+	margin-right: 2%;
+	margin-bottom: 20%;
 	padding-top: 5%;
-	padding-bottom: 30%;
-	font-size: 200px;
+	font-size: 17vw;
+}
+
+.card {
+	margin:47px;
+}
+
+.container {
+	margin: 25px;
 }
