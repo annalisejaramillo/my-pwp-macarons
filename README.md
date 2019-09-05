@@ -25,8 +25,8 @@ Your overall grade is a Tier III.
 
 ## Milestone 3 Feedback
 Line 84 has some inline CSS.
-Site is not mobile responsive. Add the following tag to correct that error:
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+Site is not mobile responsive. Add the <meta> viewport tag to correct that error. Tag can be found here:
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
 Your number of commits is a little low. When working on future projects, don't forget to commit and push often.
 
 
