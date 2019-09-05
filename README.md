@@ -21,3 +21,14 @@ Grade: Tier 4
 Overall, this is very good work.  Your work is clear and concise, and shows what your plan is.  You have a few small things about your wireframes you should think about, and your git commit history should be a bit more bite-sized.  In total, this sets you up well for your next phase of your project, and you are well situated to succeed going forward.  
 
 Your overall grade is a Tier III.
+
+
+## Milestone 3 Feedback
+Line 84 has some inline CSS.
+Site is not mobile responsive. Add the following tag to correct that error:
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+Your number of commits is a little low. When working on future projects, don't forget to commit and push often.
+
+
+## Final Project Grade
+Tier 3
